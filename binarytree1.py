@@ -10,8 +10,8 @@ class TreeNode:
     
     def print_tree(self):
         space = " " * self.get_level()
-        prefix = space + "|__" if self.parent else ""
-        print(prefix+self.data)
+        prifix = space + "|__" if self.parent else :
+        print(self.data)
         if self.children:
             for child in self.children:
                 child.print_tree()
